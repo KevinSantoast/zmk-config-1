@@ -40,6 +40,8 @@
 				&trans  &trans &trans &trans &trans &trans &trans  &trans &trans &kp INS &kp PG_UP  &kp DEL  
 				&trans  &trans &trans &trans &trans &trans &kp DEL &trans &kp HOME &kp PG_DN  &kp END  &trans
 			>;
+			
+			sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
 		};
 
 		control {
